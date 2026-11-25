@@ -2,10 +2,13 @@ Code relating to the generation of a gluconobacter pangenome, and species assign
 Author: Jacob Hudson
 
 Steps
-- Setup github
-- Download genomes from genbank
+- Setup github - done
+- Download genomes from genbank - done
 - Setup Nextflow
-- Rotate geneoms with DNAapler
+- Check assembly quality
+--  BUSCO
+--  CheckM/CheckM2
+--  Contamination
 - Re-annotate with bakta
 - Identify appropriate outgroup
 - Build pangenome with orthofinder
